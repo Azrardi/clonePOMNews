@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Open Cart Test Regression PW Suite" thread-count="3" parallel="tests" verbose="4">
+    <listeners>
+        <listener class-name="ListenerPOMNew.ExtentReportListener" />
+    </listeners>
+    <test name="Open Cart Home Page Test" enabled="true">
+        <classes>
+            <class name="TestLayerPOM.HomePageTest"/>
+        </classes>
+        </test>
+    <test name="Open Cart login Page Test" enabled="true">
+        <classes>
+            <class name="TestLayerPOM.LoginPageTest"/>
+        </classes>
+        </test>
+    <test name="Open Cart login Page Test New" enabled="true">
+        <classes>
+            <class name="TestLayerPOM.LoginPageTest"/>
+        </classes>
+        </test>
+</suite>

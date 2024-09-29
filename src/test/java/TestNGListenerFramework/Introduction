@@ -1,0 +1,30 @@
+Benefit of Extend Report
+- They ca be integrated with TestNG
+- Screenshoot can be captured and displayed for each Step
+- They Show the time needed for test execution
+- They show
+
+---------------------------
+testNG Listener
+---------------------------
+TC1 -> PASS
+TC2 -> FAILED
+TC3 -> SKIPPED
+
+Contains the TestNG
+Step 1 Create Test Case
+Step 2 Create Post Actions (Listener Interface)
+Step 3 Create XML File
+
+2 Ways to implement listener interface
+Method1`
+----------------------------------------------------------------
+class mylistener implements ITestListener {
+
+}
+
+method 2
+----------------------------------------------------------------
+class mylistener extends TestListenerAdapter {
+
+}

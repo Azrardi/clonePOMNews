@@ -1,0 +1,13 @@
+Apache POI is API Provided (JAVA)
+Facility :
+1. Read
+2. Write
+3. Manipulate diffrent file Suach as exel shhet, power point and word files
+
+How To Create Exel File useing Apchec POI is API Provided (JAVA)
+Type Exel File:
+Old -> XLS -> HSSF
+New -> XLSX -> XSSF
+
+
+

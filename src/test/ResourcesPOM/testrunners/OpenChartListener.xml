@@ -1,0 +1,20 @@
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/azrmuha/Documents/Final/playwright-example-POM-Exercise/src/test/java/TestLayerPOM">
+        <classes>
+            <class name="TestLayerPOM.HomePageTest">
+                <methods>
+                    <include name="homePageTitleTest"/>
+                    <include name="homePageURLTest"/>
+                    <include name="searchTest"/>
+                </methods>
+            </class>
+            <class name="TestLayerPOM.LoginPageTest">
+                <methods>
+                    <include name="LoginPageNavigationTest"/>
+                    <include name="forgotPassTest"/>
+                    <include name="appLoginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
