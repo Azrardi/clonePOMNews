@@ -9,7 +9,6 @@ This is an example of playwright test automation
 
 2. Open terminal or command prompt and run this commands :
 ```
-git clone https://github.com/alvingalangcitaka/playwright-example.git
 cd playwright-example
 mvn clean verify
 
